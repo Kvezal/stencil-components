@@ -1,0 +1,17 @@
+.kv-control-list {
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #cacaca;
+
+  border-radius: 5px;
+}
+
+.kv-control-list__label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.kv-control-list__label:last-child {
+  margin-bottom: 0px;
+}

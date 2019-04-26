@@ -1,0 +1,24 @@
+:host {
+  font-size: 0;
+}
+
+.kv-rating {
+
+}
+
+.kv-rating__svg {
+  margin-right: 1px;
+
+  fill: none;
+}
+
+.kv-rating__star {
+  stroke: #f8e71c;
+}
+
+.kv-rating__rect {
+  height: 16px;
+
+  fill: #f8e71c;
+  clip-path: url(#star);
+}
